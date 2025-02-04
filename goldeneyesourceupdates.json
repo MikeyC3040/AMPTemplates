@@ -1,0 +1,24 @@
+[
+    {
+        "UpdateStageName": "Downloading Source 2007 Dedicated Server",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "SteamCMD",
+        "UpdateSourceData": "310",
+        "UpdateSourceArgs": "310",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": true,
+        "OneShot": false
+    },
+    {
+        "UpdateStageName": "Downloading GE:Source Server",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "FetchURL",
+        "UpdateSourceData": "https://www.moddb.com/downloads/mirror/126201/122/3374c0f4dc2d2733d67285778e1a4e25/?referer=https%3A%2F%2Fwww.geshl2.com%2F",
+        "UpdateSourceTarget": "server",
+        "UnzipUpdateSource": true,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": true,
+        "OneShot": false
+    }
+]
